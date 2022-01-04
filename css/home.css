@@ -54,7 +54,7 @@
 
 .novidade{
     width: 50%;
-    height: auto;
+    height: 20%;
     position:absolute;
     left: 20%;
 }
@@ -63,7 +63,7 @@
     display: flex;
     flex-flow: row wrap;
     position: absolute;
-    top: 80%;
+    top: 50%;
     width: 100%;
 }
 
