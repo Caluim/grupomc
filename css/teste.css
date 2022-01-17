@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 50%;
+    height: auto;
+    top: 0%;
+
+
+}
+.menu_home{ /*botão sobre*/
+    background-color: grey;
+    width: auto;
+    height: 7%;
+    border-radius: 30%;
+    text-align: center;
+    font-family: arial, serif;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 55%;
+    top: 6%;   
+}
+/*animação de quando se passa o rato em cima o fundo muda de cor e faz zoom no botão*/
+button.inicio{
+    color: white;
+    background: grey;
+    transition: background 1s;
+}
+
+button:hover, button:focus{
+    background: blue;
+    transform: translateX(10px) scale(1.2);
+}
+/*animação ao fazer zoom no botão, faz o zoom lentamente*/
+.teste{
+    color: white;
+    background: yellow;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+}
+
+.menu_contacto{/*botão contacto*/
+    background-color: grey;
+    width: auto;
+    height: 10%;
+    border-radius: 30%;
+    text-align: center;
+    font-family: arial, serif;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 6%;
+}
+
+.logo_face{
+    width: 3%;
+    height: 5%;
+    position: absolute;
+    left: 90%;
+    top: 10%;
+}
+
+.logo_insta{
+    width: 3%;
+    height: 5%;
+    position: absolute;
+    left: 95%;
+    top: 10%;
+}
+
+.blink{
+   animation: blink 1s steps(1, end) infinite; 
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.nov{
+    font-size: 45px;
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+/*coloca o objecto (div) em movimento no eixo X*/
+
+@keyframes go-back{
+    0% {
+        transform: translateX(60%);
+    }
+    100% {
+        transform: translateX(-85%);
+    }
+}
+
+.marca{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: go-back 20s;
+    animation-iteration-count: infinite;
+    /*animation-direction: alternate;*/
+}
+/*slide de imagens*/
+.slider{
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+
+.slider img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider input{
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+/*FORMULÁRIO*/
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.field label,
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input#nao{
+    margin-left: 30px;
+}
+
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.mySlides{
+    display: none;
+}

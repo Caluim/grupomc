@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 50%;
+    height: auto;
+    top: 0%;
+
+
+}
+.menu_home{ /*botão sobre*/
+    background-color: grey;
+    width: auto;
+    height: 5%;
+    border-radius: 10%;
+    text-align: center;
+    font-family: arial, serif;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    
+}
+.menu_contacto{/*botão contacto*/
+    background-color: grey;
+    width: auto;
+    height: 5%;
+    border-radius: 10%;
+    text-align: center;
+    font-family: arial, serif;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 10%;
+}
+
+.logo_face{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 90%;
+    top: 10%;
+}
+
+.logo_insta{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 95%;
+    top: 10%;
+}
+
+/*PÁGINA SOBRE*/
+
+.sobre_titulo{
+    text-align: center;
+}
+
+.texto_sobre{
+    text-align: justify;
+    font-size: 14px;
+    margin-left: 10%;
+}
