@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+/*XXL*/
+@media screen and (min-width: 1201px) {
+    body{
+    background-color: grey !important;
+    }
+    /*LOGOTIPOS CABEÇALHO*/
+    .logo{
+        width: 250px;
+        height: auto;
+        top: 0;
+    }
+    .logo_mc{
+        width: 15%;
+        height: auto;
+        position: absolute;
+        right: 35px;
+        top: 70px;
+    }
+    .logo_face{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 150px;
+        top: 135px;
+    }
+    
+    .logo_insta{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 90px;
+        top: 135px;
+    }
+    /*divisão colunas*/
+    .linha1{
+        display: flex;
+        flex-flow: row wrap;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+    }
+    
+    .coluna-20{
+        width: 25%;
+    }
+}
+/*titulos e logotipos dos 4 sectores*/
+.logo_projecto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+    margin-top: 25px;
+}
+.logo_machos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+    margin-top: 25px;
+    
+}
+.machos{
+    text-align: center;
+    font-family: 'BaskOldFace', 'Baskerville Old Face';
+    font-size: 56px;
+    /*font-weight: bold;*/
+    text-shadow: 0em 0em 0.3em #737471;
+}
+.logo_femeas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+    margin-top: 25px;
+}
+.femeas{
+    text-align: center;
+    font-family: 'BaskOldFace', 'Baskerville Old Face';
+    font-size: 56px;
+    /*font-weight: bold;*/
+    text-shadow: 0em 0em 0.3em #737471;
+}
+.logo_ninhadas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+    margin-top: 25px;
+}
+.ninhadas{
+    text-align: center;
+    font-family: 'BaskOldFace', 'Baskerville Old Face';
+    font-size: 56px;
+    /*font-weight: bold;*/
+    text-shadow: 0em 0em 0.3em #737471;
+}
+    /*texto final*/
+    .texto{
+        position: absolute;
+        top: 770px;
+        width: auto;
+        height: auto;
+        margin-left: 15px;
+    }
+/*XL*/
+@media screen and (max-width: 1200px) {
+    body{
+    background-color: yellow !important;
+    }
+}
+/*LARGE*/
+@media screen and (max-width: 992px) {
+    body{
+    background-color: lightblue !important;
+    }
+}
+/*MEDIUM*/
+@media screen and (max-width: 768px) {
+    body{
+        background-color: green !important;
+    }
+}
+/*SMALL*/
+@media screen and (max-width: 576px) {
+    body{
+        background-color: orange !important;
+    }
+}
