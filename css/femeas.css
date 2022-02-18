@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+/*XXL*/
+@media screen and (min-width: 1201px) {
+    /*body{
+    background-color: grey !important;
+    }*/
+    .logo{
+        width: 250px;
+        height: auto;
+        top: 0;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+/****************************************************/
+    .maria{
+        width: 250px;
+        height: auto;
+        position: relative;
+        left: 500px;
+        top: 250px;
+    }
+    .nome_maria{
+        text-align: center;
+        font-family: 'BaskOldFace', 'Baskerville Old Face';
+        font-size: 64px;
+    }
+    .desc_maria{
+        text-align: center;
+        font-size: 32px;
+    }
+    .img_maria{
+        width: 450px;
+        height: auto;
+        position: relative;
+        margin-left: 15px;
+    }
+    /*******************************************************/
+    .moon{
+        width: 250px;
+        height: auto;
+        position: relative;
+        left: 500px;
+        top: 300px;
+    }
+    .nome_moon{
+        text-align: center;
+        font-family: 'BaskOldFace', 'Baskerville Old Face';
+        font-size: 64px;
+    }
+    .desc_moon{
+        text-align: center;
+        font-size: 32px;
+    }
+    .img_moon{
+        width: 450px;
+        height: auto;
+        position: relative;
+        margin-left: 15px;
+    }
+    /**********************************************************/
+    .skye{
+        width: 250px;
+        height: auto;
+        position: relative;
+        left: 500px;
+        top: 250px;
+    }
+    .nome_skye{
+        text-align: center;
+        font-family: 'BaskOldFace', 'Baskerville Old Face';
+        font-size: 64px;
+    }
+    .desc_skye{
+        text-align: center;
+        font-size: 32px;
+    }
+    .img_skye{
+        width: 450px;
+        height: auto;
+        position: relative;
+        margin-left: 15px;
+    }
+    /**************************************************************/
+    .soneca{
+        width: 250px;
+        height: auto;
+        position: relative;
+        left: 500px;
+        top: 300px;
+    }
+    .nome_soneca{
+        text-align: center;
+        font-family: 'BaskOldFace', 'Baskerville Old Face';
+        font-size: 64px;
+    }
+    .desc_soneca{
+        text-align: center;
+        font-size: 32px;
+    }
+    .img_soneca{
+        width: 450px;
+        height: auto;
+        position: relative;
+        margin-left: 15px;
+    }
+}
+/*XL*/
+@media screen and (max-width: 1200px) {
+    body{
+    background-color: yellow !important;
+    }
+}
+/*LARGE*/
+@media screen and (max-width: 992px) {
+    body{
+    background-color: lightblue !important;
+    }
+}
+/*MEDIUM*/
+@media screen and (max-width: 768px) {
+    body{
+        background-color: green !important;
+    }
+}
+/*SMALL*/
+@media screen and (max-width: 576px) {
+    body{
+        background-color: orange !important;
+    }
+}

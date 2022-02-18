@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*XXL*/
+@media screen and (min-width: 1201px) {
+    /*body{
+    background-color: grey !important;
+    }*/
+    .logo{
+        width: 20%;
+        height: auto;
+        top: 0%;
+    }
+    .logo_face{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 90%;
+        top: 10%;
+    }
+    .logo_insta{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 95%;
+        top: 10%;
+    }
+    .logo_mc{
+        width: 15%;
+        height: auto;
+        position: absolute;
+        left: 85%;
+        top: 4%;
+    }
+    .banner{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 250px;
+    }
+    .mySlides{
+        display: none;
+    } 
+    .linha1{
+        display: flex;
+        flex-flow: row wrap;
+        position: absolute;
+        top: 530px;
+        width: 100%;
+    }
+    .coluna-20{
+        width: 25%;
+    }
+    .logo_principal{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+    }
+    .principal{
+        text-align: center;
+        font-family: 'BaskOldFace', 'Baskerville Old Face';
+        font-size: 45px;
+    }
+    .logo_indoor{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+    }
+    .indoor{
+        text-align: center;
+        font-family: 'BaskOldFace', 'Baskerville Old Face';
+        font-size: 45px;
+    }
+    .logo_pombal{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+    }
+    .pombal{
+        text-align: center;
+        font-family: 'BaskOldFace', 'Baskerville Old Face';
+        font-size: 45px;
+    }
+}
+/*XL*/
+@media screen and (max-width: 1200px) {
+    body{
+    background-color: yellow !important;
+    }
+}
+/*LARGE*/
+@media screen and (max-width: 992px) {
+    body{
+    background-color: lightblue !important;
+    }   
+}
+/*MEDIUM*/
+@media screen and (max-width: 768px) {
+    body{
+        background-color: green !important;
+    }
+}
+/*SMALL*/
+@media screen and (max-width: 576px) {
+    body{
+        background-color: orange !important;
+    }
+}
+/*EXTRA-SMALL*/
+@media screen and (max-width: 576) {
+    body{
+        background-color: red !important;
+    }
+}
