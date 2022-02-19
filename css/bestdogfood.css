@@ -47,7 +47,7 @@ a{
         display: flex;
         flex-flow: row wrap;
         position: absolute;
-        top: 240px;
+        top: 260px;
         width: 100%;
     }
     
@@ -69,8 +69,6 @@ a{
         text-align: center;
         font-family: 'BaskOldFace', 'Baskerville Old Face';
         font-size: 45px;
-        /*font-weight: bold;*/
-        text-shadow: 0em 0em 0.3em #737471;
     }
     
     .logogato{
@@ -87,8 +85,6 @@ a{
         text-align: center;
         font-family: 'BaskOldFace', 'Baskerville Old Face';
         font-size: 45px;
-        /*font-weight: bold;*/
-        text-shadow: 0em 0em 0.3em #737471;
     }
     
     .logo_snack{
@@ -104,8 +100,6 @@ a{
         text-align: center;
         font-family: 'BaskOldFace', 'Baskerville Old Face';
         font-size: 45px;
-        /*font-weight: bold;*/
-        text-shadow: 0em 0em 0.3em #737471;
     }
     
     .logo_sup{
@@ -121,13 +115,11 @@ a{
         text-align: center;
         font-family: 'BaskOldFace', 'Baskerville Old Face';
         font-size: 45px;
-        /*font-weight: bold;*/
-        text-shadow: 0em 0em 0.3em #737471;
     }
     /*texto final*/
     .texto{
         position: absolute;
-        top: 530px;
+        top: 580px;
         width: auto;
         height: auto;
         margin-left: 15px;
