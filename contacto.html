@@ -60,10 +60,10 @@
     </div>
     <!--FORMULÁRIO-->
     <div class="box">
-        <form action="./php/enviar-email.php" method="POST" class="card">
+        <form action="./php/enviar-email.php" method="POST">
             <fieldset>
                 <legend><b>Formulário de Contacto</b></legend>
-                <br>
+                <br><br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
                     <label for="nome" class="labelInput">Nome:</label>
@@ -73,11 +73,6 @@
                     <input type="text" name="email" id="email" class="inputUser" required>
                     <label for="email" class="labelInput">Email:</label>
                 </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                    <label for="telefone" class="labelInput">Telefone:</label>
-                </div>
                 <br>
                 <p>Deseja receber as nossas novidades?</p>
                 <input type="radio" id="sim" name="novidades" value="sim" required>
@@ -86,8 +81,8 @@
                 <label for="nao">Não</label>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="mensagem" id="mensagem" class="inputUser" required>
-                    <label for="mensagem" class="labelInput">Mensagem:</label>
+                    <label for="textAreaMensagem">Mensagem:</label><br>
+                    <textarea name="mensagem" id="textAreaMensagem" required maxlength="3000"></textarea>
                 </div>
                 <br>
                 <input type="submit" name="submit" id="submit">
