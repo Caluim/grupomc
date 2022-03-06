@@ -14,28 +14,32 @@
         </div>
     </a>
     </header>
+    <!--MAPA-->
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12282.29674994353!2d-8.789503973532376!3d39.68179213527468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2275be075340e3%3A0xcef0950af1129f58!2sCentro%20Canino%20Miguel%20Carreira!5e0!3m2!1spt-PT!2spt!4v1646513271948!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
     <!--CONTACTO GERAL-->
     <div class="contacto_geral">
         <h2 class="titulo-geral">Geral:</h2>
         <p class="tlm-geral">Tlm: 918686526</p>
         <p class="morada-geral">Morada: Estrada Principal, nº220 <br>2410-855 Portelas da Reixida, Leiria</p>
-        <p class="email-geral">Email: mc.centrocanino@gmail.com</p>
+        <p class="email-geral">Email: <a href="mailto:mc.centrocanino@gmail.com">mc.centrocanino@gmail.com</a></p>
     </div>
     <!--CONTACTO BEST DOG FOOD-->
     <div class="contacto_bestdogfood">
         <h2 class="titulo-bestdogfood">Best Dog Food:</h2>
-        <p class="tlm-bestdogfood">Tlm: 918686526</p>
-        <p class="morada-bestdogfood">Morada: Estrada Principal, nº220 <br>2410-855 Portelas da Reixida, Leiria</p>
-        <p class="email-bestdogfood">Email: geral@bestdogfood.pt</p>
-        <p class="loja-bestdogfood">Loja on-line: <a>www.bestdogfood.pt</a></p>
+        <!--<p class="tlm-bestdogfood">Tlm: 918686526</p>-->
+        <!--<p class="morada-bestdogfood">Morada: Estrada Principal, nº220 <br>2410-855 Portelas da Reixida, Leiria</p>-->
+        <p class="email-bestdogfood">Email: <a href="mailto:geral@bestdogfood.pt">geral@bestdogfood.pt</a></p>
+        <p class="loja-bestdogfood">Loja on-line: <a href="https//www.bestdogfood.pt">www.bestdogfood.pt</a></p>
         <p class="facebook-bestdogfood">Facebook: <a href="https://www.facebook.com/nutricao.bestdogfood">wwww.facebook.com/nutricao.bestdogfood</a></p>
     </div>
     <!--CONTACTO CENTRO CANINO-->
     <div class="contacto_centro-canino">
         <h2 class="titulo-centro-canino">Centro Canino:</h2>
-        <p class="tlm-centro-canino">Tlm: 918686526</p>
-        <p class="morada-centro-canino">Morada: Estrada Principal, nº220 <br>2410-855 Portelas da Reixida, Leiria</p>
-        <p class="email-centro-canino">Email: mc.centrocanino@gmail.com</p>
+        <!--<p class="tlm-centro-canino">Tlm: 918686526</p>-->
+        <!--<p class="morada-centro-canino">Morada: Estrada Principal, nº220 <br>2410-855 Portelas da Reixida, Leiria</p>-->
+        <!--<p class="email-centro-canino">Email: mc.centrocanino@gmail.com</p>-->
         <p class="facebook-centro-canino">Facebook: <a href="https://www.facebook.com/nutricao.bestdogfood">wwww.facebook.com/nutricao.bestdogfood</a></p>
     </div>
     <!--CONTACTO TREINO CANINO-->
@@ -48,11 +52,50 @@
     </div>
     <!--CONTACTO AFIXO-->
     <div class="contacto_afixo">
-        <h2 class="titulo-afixo">Treino Canino:</h2>
-        <p class="tlm-afixo">Tlm: 918686526</p>
-        <p class="morada-afixo">Morada: Estrada Principal, nº220 <br>2410-855 Portelas da Reixida, Leiria</p>
-        <p class="email-afixo">Email: lmrcarreira@hotmail.com</p>
+        <h2 class="titulo-afixo">Afixo:</h2>
+        <!--<p class="tlm-afixo">Tlm: 918686526</p>-->
+        <!--<p class="morada-afixo">Morada: Estrada Principal, nº220 <br>2410-855 Portelas da Reixida, Leiria</p>-->
+        <p class="email-afixo">Email: <a href="mailto:lmrcarreira@hotmail.com">lmrcarreira@hotmail.com</a></p>
         <p class="facebook-afixo">Facebook: <a href="https://www.facebook.com/danascentedoliz">wwww.facebook.com/danascentedoliz</a></p>
     </div>
+    <!--FORMULÁRIO-->
+    <div class="box">
+        <form action="./php/enviar-email.php" method="POST" class="card">
+            <fieldset>
+                <legend><b>Formulário de Contacto</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone:</label>
+                </div>
+                <br>
+                <p>Deseja receber as nossas novidades?</p>
+                <input type="radio" id="sim" name="novidades" value="sim" required>
+                <label for="sim"> Sim</label>
+                <input type="radio" id="nao" name="novidades" value="nao" required>
+                <label for="nao">Não</label>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="mensagem" id="mensagem" class="inputUser" required>
+                    <label for="mensagem" class="labelInput">Mensagem:</label>
+                </div>
+                <br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <footer class="rodape">
+        <p class="direito-copia">&copy Grupo MC 2022</p>
+    </footer>
 </body>
 </html>

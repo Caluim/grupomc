@@ -3,7 +3,7 @@
 }
 html{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 a{
     text-decoration: none;
@@ -100,6 +100,16 @@ a{
     .mySlides{
         display: none;
     } 
+    .rodape{
+        position: relative;
+    }
+    /*.rodape{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 2px;
+        margin: 0;
+    }*/
 }
 /*XL*/
 @media screen and (max-width: 1200px) {
@@ -283,7 +293,7 @@ a{
     }
     .mySlides{
         display: none;
-    }   
+    }  
 }
 /*MEDIUM*/
 @media screen and (max-width: 768px) {

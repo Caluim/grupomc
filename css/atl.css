@@ -21,9 +21,9 @@ a{
 }
 /*XXL*/
 @media screen and (min-width: 1201px) {
-    body{
+    /*body{
     background-color: grey !important;
-    }
+    }*/
 }
 /*XL*/
 @media screen and (max-width: 1200px) {

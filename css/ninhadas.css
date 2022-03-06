@@ -25,6 +25,7 @@ a{
         height: auto;
         margin-top: 35px;
         margin-left: 15px;
+        border-radius: 10px;
     }
     .texto{
         margin-left: 15px;

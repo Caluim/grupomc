@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -13,4 +14,121 @@ a{
     width: 50%;
     height: auto;
     top: 0;
+}
+.mapa{
+    position: relative;
+    float: right;
+    margin-right: 100px;
+}
+.contacto_geral{
+    width: 380px;
+    height: auto;
+    background-color: #FFD433;
+    border-radius: 10px;
+    position: relative;
+    left: 25px;
+    padding-left: 10px;
+}
+.contacto_bestdogfood{
+    width: 380px;
+    height: auto;
+    margin-top: 25px;
+    background-color: #FFD433;
+    border-radius: 10px;
+    position: relative;
+    left: 25px;
+    padding-left: 10px;
+}
+.contacto_centro-canino{
+    width: 380px;
+    height: auto;
+    margin-top: 25px;
+    background-color: #FFD433;
+    border-radius: 10px;
+    position: relative;
+    left: 25px;
+    padding-left: 10px;
+}
+.contacto_treino-canino{
+    width: 380px;
+    height: auto;
+    margin-top: 25px;
+    background-color: #FFD433;
+    border-radius: 10px;
+    position: relative;
+    left: 25px;
+    padding-left: 10px;
+}
+.contacto_afixo{
+    width: 380px;
+    height: auto;
+    margin-top: 25px;
+    background-color: #FFD433;
+    border-radius: 10px;
+    position: relative;
+    left: 25px;
+    padding-left: 10px;
+}
+.box{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    right: 230px;
+    top: 630px;
+    background-color: #FFD433;
+    padding: 15px;
+    border-radius: 15px;
+}
+legend{
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: white;
+}
+#submit{
+    background-image: linear-gradient(to left, rgb(117 117 116), rgb(255 212 45));
+    width: 100%;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to left, rgb(105 105 105),rgb(215 177 35));
+}
+.rodape{
+    width: 100%;
+    height: auto;
+    border-top: groove;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.direito-copia{
+    text-align: center;
 }

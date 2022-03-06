@@ -42,6 +42,7 @@ a{
         height: auto;
         position: relative;
         margin-left: 15px;
+        border-radius: 10px;
     }
     /*******************************************************/
     .moon{
@@ -65,6 +66,7 @@ a{
         height: auto;
         position: relative;
         margin-left: 15px;
+        border-radius: 10px;
     }
     /**********************************************************/
     .skye{
@@ -88,6 +90,7 @@ a{
         height: auto;
         position: relative;
         margin-left: 15px;
+        border-radius: 10px;
     }
     /**************************************************************/
     .soneca{
@@ -111,6 +114,7 @@ a{
         height: auto;
         position: relative;
         margin-left: 15px;
+        border-radius: 10px;
     }
 }
 /*XL*/
